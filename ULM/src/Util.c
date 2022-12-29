@@ -17,5 +17,15 @@ char* _ulm_get_file_contents(const char* path) {
   int nSize = ftell(fSource);
   fseek(fSource, 0, SEEK_SET);
 
-  char* cBuf = (char*)malloc(nSize*sizeof(char));
+  // Write to a buffer
+  char* cBuf = (char*)malloc((1+nSize)*sizeof(char));
+  if (!cBuf) {
+    printf("%s\n (Util.c, line 23)\n", ULM_SRCERROR_MEMORYALLOCATION_F);
+    fclose(fSource);
+    return NULL;
+  }
+  fread(cBuf, 1, nSize, fSource);
+  fclose(fSource);
+  cBuf[nSize] = '\0';
+  return cBuf;
 }
