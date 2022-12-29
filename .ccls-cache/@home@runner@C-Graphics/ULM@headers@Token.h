@@ -1,5 +1,5 @@
-#ifndef _ulmtoken_TOKEN_H
-#define _ulmtoken_TOKEN_H
+#ifndef ULM_TOKEN_H
+#define ULM_TOKEN_H
 #include <stdio.h> 
 #include <stdlib.h>
 
