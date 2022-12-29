@@ -1,7 +1,7 @@
 compile = ["make", "-s"]
-run = "./ULM"
-entrypoint = "ULM.c"
-hidden = ["ULM", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
+run = "./ULMVM"
+entrypoint = "ULMVM.c"
+hidden = ["ULMVM", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 
 [nix]
 channel = "stable-22_11"
