@@ -11,4 +11,5 @@ typedef uint32_t u32;
 
 typedef int8_t i8;
 typedef uint8_t u8;
-#endif
+
+#endif // ULM_TYPES_H

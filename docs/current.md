@@ -8,9 +8,9 @@
 * `halt`     - exits the program
 
 #### Datatypes
-* `8bit signed integer` defined as a `i8`, when declared, it must start with a `#` (Ex. `#4`)
-* `8bit unsigned integer` defined as a `u8`, when declared. it must start with a `u` (Ex. `u8`)
+* `8bit signed integer` defined as a `int8`, when declared, it must start with a `n` (Ex. `n4`)
+* `8bit unsigned integer` defined as a `uint8`, when declared. it must start with a `u` (Ex. `u8`)
  -------------
-* `32bit signed integer` defined as a `i32`, when declared, it must start with a `#` (Ex. `#12`)
-* `32bit unsigned integer` defined as a `u32`, when declared. it must start with a `u` (Ex. `u12`)
+* `32bit signed integer` defined as a `int32`, when declared, it must start with a `n` (Ex. `n12`)
+* `32bit unsigned integer` defined as a `uint32`, when declared. it must start with a `u` (Ex. `u12`)
   

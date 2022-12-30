@@ -1,5 +1,5 @@
-push #30
-push #12
+push n30
+push n12
 add
 
 halt

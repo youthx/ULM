@@ -5,4 +5,4 @@
 #include <string.h>
 char* _ulm_get_file_contents(const char* path); 
 
-#endif
+#endif // ULM_UTIL_H
