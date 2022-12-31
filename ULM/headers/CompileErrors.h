@@ -6,7 +6,7 @@
 
 // User Errors
 #define ULM_DASHC_TOO_FEW_ARGS_F "[ULMVM] Too Few Compile Arguments!"
-
+#define ULM_SYNTAX_NULL_INSTRUCTION_F "[ULMVM] <Syntax Error> No such instruction"
 // Source errors
 #define ULM_SRCERROR_MEMORYALLOCATION_F "[ULMVM] <SRCERROR> Memory Allocation Error"
 

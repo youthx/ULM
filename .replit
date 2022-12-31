@@ -1,5 +1,5 @@
 compile = ["make", "-s"]
-run = "./ULMVM"
+run = "./ULMVM -c -l ULM/tests/test1.ulm"
 entrypoint = "ULMVM.c"
 hidden = ["ULMVM", "main-debug", "**/*.o", "**/*.d", ".ccls-cache", "Makefile"]
 

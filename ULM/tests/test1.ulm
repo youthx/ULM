@@ -1,5 +1,4 @@
-push n30
-push n12
+push u30
+push u12
 add
-
 halt
